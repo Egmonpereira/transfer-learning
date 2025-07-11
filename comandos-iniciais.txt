@@ -1,0 +1,14 @@
+comandos iniciais
+
+sudo add-apt-repository universe && sudo apt list --upgradable && sudo apt update -y && sudo apt install python3-pip -y && sudo apt install kate -y && sudo apt install git -y && cd Documentos && git clone https://github.com/Egmonpereira/transfer-learning.git && sudo apt install virtualenv -y && virtualenv Venv && source Venv/bin/activate && pip install numpy && pip install keras && pip install tensorflow && pip install matplotlib
+
+sudo apt-get update && sudo apt-get install python3.7
+
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.13 1 && sudo update-alternatives --install /usr/local/bin/python3 python3 /usr/bin/python3.7 2
+sudo update-alternatives --config python3
+
+Mostra onde o python está instalado
+import os
+import sys
+
+print(os.path.dirname(sys.executable))
