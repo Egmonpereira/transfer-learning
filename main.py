@@ -7,4 +7,4 @@ if __name__ == "__main__":
     os.system('clear')
     
     TransferLearning().transferlearning()
-    #TransferLearning().get_image()
+    print("The End")
